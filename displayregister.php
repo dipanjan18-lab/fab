@@ -1,4 +1,7 @@
-<?php
+<html>
+    <head></head>
+    <body>
+        <?php
     include('connectregister.php');
     $sql1 = "SELECT id,user_name,user_email FROM register_mywebpage";
     $display = mysqli_query($con, $sql1);
@@ -30,3 +33,6 @@
     echo "<br><a href='updateregister.php'><button>Update</button></a>";
     echo "<br><a href='https://dipanjan18-lab.github.io/new-web/register.html'><button>New Register</button></a>";
 ?>
+
+    </body>
+</html>
